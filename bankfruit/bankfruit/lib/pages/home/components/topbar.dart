@@ -1,3 +1,4 @@
+import 'package:bankfruit/pages/home/components/slider.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
@@ -43,6 +44,11 @@ class TitleWithSearch extends StatelessWidget {
               ],
             ),
           ),
+          Container(
+              child: Row(children: <Widget>[
+            MySlider(),
+            Text('Radius (mi)'),
+          ])),
           Positioned(
             bottom: 0,
             left: 0,
@@ -69,7 +75,7 @@ class TitleWithSearch extends StatelessWidget {
                     child: TextField(
                       onChanged: (value) {},
                       decoration: InputDecoration(
-                        hintText: "Enter Zipcode",
+                        hintText: "Enter County",
                         hintStyle: TextStyle(
                           color: kPrimaryColor.withOpacity(0.5),
                         ),
