@@ -1,3 +1,4 @@
+import 'package:bankfruit/pages/map/components/map.dart';
 import 'package:flutter/material.dart';
 import 'pages/home/home.dart';
 import 'constants.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const HomeScreen(),
+      home: const MapScreen(),
     );
   }
 }
