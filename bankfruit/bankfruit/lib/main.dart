@@ -1,4 +1,4 @@
-import 'package:bankfruit/pages/map/components/mapScreen.dart';
+//import 'package:bankfruit/pages/map/components/mapScreen.dart';
 import 'package:flutter/material.dart';
 import 'pages/home/home.dart';
 import 'constants.dart';
@@ -8,6 +8,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {

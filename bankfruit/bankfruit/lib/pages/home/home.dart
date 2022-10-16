@@ -1,5 +1,4 @@
 import 'package:bankfruit/constants.dart';
-import 'package:bankfruit/pages/map/components/mapScreen.dart';
 import 'package:flutter/material.dart';
 import '../../components/bottomnav.dart';
 import 'components/body.dart';
@@ -11,8 +10,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: const MapScreen(),
-      bottomNavigationBar: const Body(),
+      body: const Body(),
+      // bottomNavigationBar: const BottomNavBar(),
       //bottomNavigationBar: const BottomNavBar(),
     );
   }
