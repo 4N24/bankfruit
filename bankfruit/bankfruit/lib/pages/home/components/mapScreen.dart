@@ -28,7 +28,7 @@ class MapScreen extends StatelessWidget {
           layers: [
             TileLayerOptions(
               urlTemplate:
-                  "https://api.mapbox.com/styles/v1/jasong-isu/cl9afvdyn004714o6e0g4fe96/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiamFzb25nLWlzdSIsImEiOiJjazFvMjYyODAwaHUxM2RyeXNvcG1qNXlvIn0.9jmaNirbBevmEUI4OAvarQ",
+                  "https://api.mapbox.com/styles/v1/jasong-isu/cl9afvdyn004714o6e0g4fe96/tiles/256/%7Bz%7D/%7Bx%7D/%7By%7D@2x?access_token=pk.eyJ1IjoiamFzb25nLWlzdSIsImEiOiJjazFvMjYyODAwaHUxM2RyeXNvcG1qNXlvIn0.9jmaNirbBevmEUI4OAvarQ",
               additionalOptions: {
                 'accessToken':
                     'pk.eyJ1IjoiamFzb25nLWlzdSIsImEiOiJjazFvMjYyODAwaHUxM2RyeXNvcG1qNXlvIn0.9jmaNirbBevmEUI4OAvarQ',
