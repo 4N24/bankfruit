@@ -19,17 +19,17 @@ class MapScreen extends StatelessWidget {
             options: MapOptions(
               minZoom: 1.0,
               maxZoom: 18,
-              zoom: 13,
+              zoom: 3,
               //center: AppConstants.myLocation,
               //center: LatLng(35.68, 51.41);,
             ),
             layers: [
               TileLayerOptions(
                 urlTemplate:
-                    "https://api.mapbox.com/styles/v1/britneyy/cl9autl71005b14tmohqtwhwd/wmts?access_token=pk.eyJ1IjoiYnJpdG5leXkiLCJhIjoiY2w5YWNibWF5MzFieDNudGdkZGVpMnk2eCJ9.OvpUDbjB-5nOhvXOu8fjLw",
+                    "https://api.mapbox.com/styles/v1/jasong-isu/cl9afvdyn004714o6e0g4fe96/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiamFzb25nLWlzdSIsImEiOiJjazFvMjYyODAwaHUxM2RyeXNvcG1qNXlvIn0.9jmaNirbBevmEUI4OAvarQ",
                 additionalOptions: {
                   'accessToken':
-                      'pk.eyJ1IjoiYnJpdG5leXkiLCJhIjoiY2w5YWNibWF5MzFieDNudGdkZGVpMnk2eCJ9.OvpUDbjB-5nOhvXOu8fjLw',
+                      'pk.eyJ1IjoiamFzb25nLWlzdSIsImEiOiJjazFvMjYyODAwaHUxM2RyeXNvcG1qNXlvIn0.9jmaNirbBevmEUI4OAvarQ',
                   'id': 'mapbox.mapbox-streets-v8',
                 },
               ),
