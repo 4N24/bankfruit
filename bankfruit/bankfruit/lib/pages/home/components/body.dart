@@ -11,7 +11,7 @@ class Body extends StatelessWidget {
     // it enable scrolling on small device
     return SingleChildScrollView(
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        verticalDirection: VerticalDirection.up,
         children: <Widget>[
           TitleWithSearch(key: context.widget.key, size: sizew),
           //TitleWithMoreBtn(title: "Recomended", press: () {}),

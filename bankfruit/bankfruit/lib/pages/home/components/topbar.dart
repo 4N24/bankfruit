@@ -15,7 +15,7 @@ class TitleWithSearch extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: kDefaultPadding * 2.5),
       // It will cover 20% of our total height
-      height: size.height * 0.2,
+      height: size.height * 0.3,
       child: Stack(
         children: <Widget>[
           Container(
@@ -24,7 +24,7 @@ class TitleWithSearch extends StatelessWidget {
               right: kDefaultPadding,
               bottom: 36 + kDefaultPadding,
             ),
-            height: size.height * 0.2 - 27,
+            height: size.height * 0.18 - 27,
             decoration: const BoxDecoration(
               color: kPrimaryColor,
               borderRadius: BorderRadius.only(
@@ -69,7 +69,7 @@ class TitleWithSearch extends StatelessWidget {
                     child: TextField(
                       onChanged: (value) {},
                       decoration: InputDecoration(
-                        hintText: "Search",
+                        hintText: "Enter Zipcode",
                         hintStyle: TextStyle(
                           color: kPrimaryColor.withOpacity(0.5),
                         ),

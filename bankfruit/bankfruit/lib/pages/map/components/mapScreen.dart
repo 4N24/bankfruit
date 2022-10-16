@@ -9,10 +9,6 @@ class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 33, 32, 32),
-        title: const Text('Visualing the Housing Market Risk'),
-      ),
       body: Stack(
         children: [
           FlutterMap(
