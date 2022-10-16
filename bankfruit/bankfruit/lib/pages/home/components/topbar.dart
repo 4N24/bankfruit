@@ -40,7 +40,6 @@ class TitleWithSearch extends StatelessWidget {
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 const Spacer(),
-                Image.asset("assets/images/logo.png")
               ],
             ),
           ),
